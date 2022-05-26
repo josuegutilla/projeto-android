@@ -38,7 +38,9 @@ a.externo::after{
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-    height: 220px;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 header > h1 {
@@ -47,21 +49,20 @@ header > h1 {
     text-align: center;
     font-weight: normal;
     font-size: 48px;
-    padding-top: 35px;
+    padding-top: 14px;
+    padding-bottom: 20px;
     text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.294);
 } 
 
-header p {
+header > p {
     color: white;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     max-width: 600px;
     margin: auto;
-    text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 50px;
-    padding-top: 25px;
+    padding-bottom: 30px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.387);
     
 }
@@ -73,11 +74,9 @@ nav {
 }
 
 nav > a {
-    margin-right: 5px;
     color: var(--cor1);
     padding: 10px;
     border-radius: 5px;
-    border-bottom: 5px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.5s;
